@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-File storage
+"""ontains the FileStorage class
 """
 
 import json
@@ -85,3 +84,4 @@ class FileStorage:
         elif cls is None:
             total = len(self.__objects)
         return total
+
