@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Contains the TestFileStorageDocs classes
-branch storage_get_count
+branch storage_get_count.
 """
 
 from datetime import datetime
