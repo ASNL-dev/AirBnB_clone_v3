@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Database storage
+"""
+dbstorage
 """
 
 import os
@@ -20,6 +21,7 @@ name2class = {
     'Review': Review,
     'User': User
 }
+
 
 class DBStorage:
     """Database Storage"""
