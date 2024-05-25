@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-dbstorage
+dbstorage - branch storage_get_count
 """
 
 import os

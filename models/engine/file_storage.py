@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-File storage
+File storage - branch storage_get_count
 """
 
 import json
