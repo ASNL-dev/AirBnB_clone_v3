@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""tabase storage engine using SQLAlchemy with a mysql+mysqldb database
-connection.
+"""
+dbstorage - branch storage_get_count
 """
 
 import os

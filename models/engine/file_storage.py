@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""ontains the FileStorage class
+"""
+File storage - branch storage_get_count
 """
 
 import json

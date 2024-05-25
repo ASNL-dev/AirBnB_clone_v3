@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""ontains the TestDBStorageDocs and TestDBStorage classes
+"""
+Contains the TestDBStorageDocs and TestDBStorage classes
+branch storage_get_count
 """
 
 from datetime import datetime
