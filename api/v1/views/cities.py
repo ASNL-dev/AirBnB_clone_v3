@@ -206,7 +206,7 @@ def create_one_city(state_id):
     """
     try:
         r = request.get_json()
-    except:
+    except Exception:
         r = None
     if r is None:
         return "Not a JSON", 400
@@ -277,7 +277,7 @@ def update_one_city(city_id):
         abort(404)
     try:
         r = request.get_json()
-    except:
+    except Exception:
         r = None
     if r is None:
         return "Not a JSON", 400
@@ -287,4 +287,3 @@ def update_one_city(city_id):
         setattr(city, k, v)
     city.save()
     return jsonify(city.to_json()), 200
-

@@ -144,7 +144,7 @@ def create_amenity():
     """
     try:
         r = request.get_json()
-    except:
+    except Exception:
         r = None
     if r is None:
         return "Not a JSON", 400
@@ -202,7 +202,7 @@ def update_amenity(amenity_id=None):
     """
     try:
         r = request.get_json()
-    except:
+    except Exception:
         r = None
     if r is None:
         return "Not a JSON", 400
@@ -215,4 +215,3 @@ def update_amenity(amenity_id=None):
         setattr(a, k, v)
     a.save()
     return jsonify(a.to_json()), 200
-
